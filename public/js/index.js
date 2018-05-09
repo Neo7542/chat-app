@@ -4,10 +4,10 @@ socket.on('connect',function () {
 
 
 
-  socket.emit('createMessage',{
-    to: 'Reciever' ,
-    body : 'Hey bro'
-  });
+  // socket.emit('createMessage',{
+  //   to: 'Reciever' ,
+  //   body : 'Hey bro'
+  // });
 });
 
 socket.on('newMessage',function(message){
