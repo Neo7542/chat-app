@@ -21,12 +21,11 @@ io.on('connection',(socket)=>{
   socket.on('createMessage',function(message){
     console.log('Message ', JSON.stringify(message,2));
     io.emit('newMessage',{
-      from : 'Sender',
-      body : 'Hey There' ,
+      from : message.from ,
+      text : message.text ,
       createdAt : Date().toLocaleString()
     });
   });
-
 });
 
 app.use(express.static( publicPath ));
