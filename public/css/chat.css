@@ -1,0 +1,49 @@
+input {
+  width: 700px;
+  position: inherit;
+  border-radius: 5px;
+ height: 15px;
+ padding: 10px;
+ margin-left: 20px;
+}
+
+ .UserList{
+   width : 150px;
+   height : 400px;
+   background-color: #6363ea;
+   text-align: center;
+   margin-left: 0px;
+ }
+
+ div{
+   float: left;
+ }
+button{
+  /* position: inherit; */
+  width : 100px;
+  height : 50px;
+  color: blue;
+}
+
+form{
+  top : 450px;
+  left :20px;
+  float: bottom;
+}
+
+#People{
+  text-align: left;
+}
+
+li{
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0px;
+  background-color: #e7dddd;
+  margin : 10px;
+  padding: 10px;
+}
+
+:focus{
+  border-color: red;
+}

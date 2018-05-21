@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Chat App</title>
+    <meta charset="utf-8" >
+    <title>Join | Chat</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <h3> Welcome to The chat app </h3>
-    <ol id="messages"></ol>
-    <form id="chat-form">
-      <input type="text" id="message" placeholder="Enter your Message"/>
-      <button>Send</button>
-    </form>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/js/libs/jquery-3.2.1.min.js"></script>
-    <script src="/js/index.js"></script>
+    <div class = "form">
+      <form action="/chat.html">
+        <div class="heading"> <h3>JOIN CHAT<h3> </div>
+        <div><label>Name/Alias : </label><input type="text" name="name" placeholder="Name for chat room" autocomplete="off" autofocus/></div>
+        <div><label>Chat Room ID : </label><input type="text" name="room" placeholder="Chat room id" autocomplete="off"/></div>
+        <div><button > Join Chat</button></div>
+    </div>
   </body>
 </html>
